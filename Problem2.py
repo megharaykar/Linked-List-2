@@ -47,8 +47,7 @@ class Solution:
             fast.next = temp
             slow = temp
             fast = temp1
-            
-        
+              
     def reverse(self, head):
         prev = None
         curr = head
